@@ -2,6 +2,8 @@ import streamlit as st
 import pandas as pd
 import json
 from datetime import datetime
+if st.button("🔙 Back to InnovNutriBite"):
+    st.markdown("[Go Back to App](https://innovnutribite.web.app/)", unsafe_allow_html=True)
 
 # Load food database
 def load_food_database():
