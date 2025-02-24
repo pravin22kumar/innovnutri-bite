@@ -46,13 +46,21 @@ const MealPlannerPage = () => {
           Get customized meal plans based on your dietary needs, budget, and preferences.
         </p>
 
-        <div className="relative w-full h-[600px] border border-cyan-400 rounded-xl overflow-hidden shadow-lg bg-black">
-          <iframe
-            src="https://msachin11-innovnutri-bite-backendapp-mcpxdf.streamlit.app/"
-            className="w-full h-full"
-            title="Meal Planner"
-          />
-        </div>
+        {/* Open Meal Planner Button */}
+        <div className="flex justify-center mt-6">
+        <div className="relative w-full h-[600px] border border-cyan-400 rounded-xl shadow-lg bg-black flex justify-center items-center">
+  <a
+    href="https://msachin11-innovnutri-bite-backendapp-mcpxdf.streamlit.app/"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="bg-blue-500 text-white px-6 py-3 rounded-lg font-bold text-lg shadow-md hover:bg-blue-600 transition duration-300"
+  >
+    🚀 Open Meal Planner
+  </a>
+</div>
+
+</div>
+
       </div>
     </div>
   );
