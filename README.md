@@ -1,70 +1,63 @@
-# Getting Started with Create React App
+# 🍽️ InnovNutri-Bite - AI-Based Nutrition Assistant  
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+InnovNutri-Bite is an AI-powered nutrition assistant designed to help users create personalized meal plans based on their dietary needs and affordability.  
 
-## Available Scripts
+## 🚀 Features  
 
-In the project directory, you can run:
+### 🔹 **AI Chatbot**  
+- Collects user details (age, country, diet type, height, weight, lifestyle, affordability).  
+- Estimates required protein and nutritional intake.  
+- Stores user preferences and restores previous conversations.  
 
-### `npm start`
+### 🔹 **Personalized Meal Planner (React.js & Streamlit-Based)**  
+- Generates meal plans (breakfast, lunch, dinner) using **React.js and Streamlit**.  
+- React.js is used for the interactive **web-based meal planner UI**.  
+- Streamlit is used for **data analysis and visualization of meal plans**.  
+- Supports users from **India, USA, and Japan**.  
+- Allows users to filter meals based on budget constraints.  
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### 🔹 **Nutritional Guidance**  
+- Provides insights into the causes of poor nutrition.  
+- Suggests meal plans tailored to different dietary needs.  
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## 🛠️ Tech Stack  
+- **Frontend:** React.js, Tailwind CSS  
+- **Backend:** Node.js, Firebase  
+- **AI Model:** Gemini-based chatbot  
+- **Meal Planner:** React.js (UI) + Streamlit (Data Analysis)  
+- **Database:** Firestore (to store user preferences)  
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 📌 How to Use  
+1. **Sign in with Google** (authentication required).  
+2. **Choose a service** (Chatbot, Causes of Poor Nutrition, or Personalized Meal Plan).  
+3. If **not logged in**, you'll be redirected to the **Google login page**.  
+4. After login, access your selected service.  
+5. Use the **AI chatbot** for nutritional advice or get a **personalized meal plan** via **React.js UI** with **Streamlit-powered insights**.  
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🎯 Future Improvements  
+- **Real-time grocery price integration** to optimize meal costs.  
+- **Bulk order recommendations** based on grocery price inflation predictions.  
+- Expand support to more countries.  
+- Improve AI chatbot with more nutrition-based recommendations.  
+- Mobile app version for easier access.  
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## 💡 Contributing  
+We welcome contributions! Feel free to fork the repo, open issues, or submit pull requests.  
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 📞 Contact  
+For questions or suggestions, reach out at [your email or social media].  
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+🔥 **Now correctly includes future improvements for real-time data & bulk orders!**  
+Let me know if you need any more edits. 🚀  
