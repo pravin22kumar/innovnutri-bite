@@ -48,7 +48,7 @@ const MealPlannerPage = () => {
 
         <div className="relative w-full h-[600px] border border-cyan-400 rounded-xl overflow-hidden shadow-lg bg-black">
           <iframe
-            src="http://localhost:8501"
+            src="https://msachin11-innovnutri-bite-backendapp-mcpxdf.streamlit.app/"
             className="w-full h-full"
             title="Meal Planner"
           />
