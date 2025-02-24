@@ -5,13 +5,13 @@ import {
 import { getFirestore, doc, setDoc, getDoc, updateDoc, arrayUnion } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyAeMU-iDX1Ws-j2ZIbNYWKwxnZ2LgxZVg0",
-  authDomain: "innovnutribite.firebaseapp.com",
-  projectId: "innovnutribite",
-  storageBucket: "innovnutribite.firebasestorage.app",
-  messagingSenderId: "1029629190173",
-  appId: "1:1029629190173:web:b46662166242ae1a6d26f4",
-  measurementId: "G-FL1J4C0T3H"
+  apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
+  authDomain: process.env.REACT_APP_FIREBASE_AUTH_DOMAIN,
+  projectId: process.env.REACT_APP_FIREBASE_PROJECT_ID,
+  storageBucket: process.env.REACT_APP_FIREBASE_STORAGE_BUCKET,
+  messagingSenderId: process.env.REACT_APP_FIREBASE_MESSAGING_SENDER_ID,
+  appId: process.env.REACT_APP_FIREBASE_APP_ID,
+  measurementId: process.env.REACT_APP_FIREBASE_MEASUREMENT_ID
 };
 
 const app = initializeApp(firebaseConfig);
